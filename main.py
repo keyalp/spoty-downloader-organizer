@@ -5,14 +5,15 @@ import platform
 from download_songs import DownloadSongs
 from create_playlists import CreatePlaylists
 from move_songs import MoveManager
+from credentials import Credentials
 
 # Constants:
 user = 'keyalp'
 
 # Add to path ffmpeg codecs converters
 
-os.environ['SPOTIPY_CLIENT_ID'] = 'e5e70ac7bfd94bdcb80b95a904b2a3f6'
-os.environ['SPOTIPY_CLIENT_SECRET'] = 'ec9ec0e93aac4f228211495c3d68b734'
+os.environ['SPOTIPY_CLIENT_ID'] = Credentials.SPOTIPY_CLIENT_ID
+os.environ['SPOTIPY_CLIENT_SECRET'] = Credentials.SPOTIPY_CLIENT_SECRET
 os.environ['SPOTIPY_REDIRECT_URI'] = 'http://localhost:8888'
 
 categories = ['Techno OldSchool','Techno','House', 'Progressive House', 'Alternative', 'Drum & Bass', 'HardTech',

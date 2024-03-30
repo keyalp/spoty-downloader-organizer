@@ -1,5 +1,5 @@
 ffmpeg-2023-12-28
-credentials.txt
+credentials.py
 download
 
 # Necessary codecs to convert songs
