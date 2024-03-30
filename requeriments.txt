@@ -1,0 +1,4 @@
+spotify_dl
+spotipy
+
+# sudo apt install ffmpeg
